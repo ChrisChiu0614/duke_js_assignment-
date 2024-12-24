@@ -13,8 +13,6 @@ function changeRed(width, height) {
         pixel.setGreen(green);
         pixel.setBlue(blue);
         if(red>255){
-           green = 200;
-           blue = 100;
            red = 0;
         }
        
