@@ -1,0 +1,16 @@
+<h1>Paint Your Own Picture</h1>
+<p>Set width <input id="setWidth" type="text" onchange="setWidth(this.value)" /> Set Height<input id="setHieght" type="text" onchange="setHeight(this.value)" /></p>
+<div>
+  <canvas id="canvas1" onmousedown="startPaint()" onmousemove="doPaint(event.offsetX,event.offsetY)" onmouseup="endPaint()"></canvas>
+</div>
+<p>
+  Brush Color:<input type="color" value="#000" onchange="setColor(this.value)" />
+  Brush Size:<input id="sizeInput" type="range" min="1" max="50" value="50" onchange="resizeBrush(this.value)" />
+</p>
+<p><output id="sizeOutput">50</output></p>
+<div id="divabout"></div>
+
+<p>
+  <input type="button" value="Clear Canvas" onclick="clearCanvas()" />
+<input type='button' value='About' onclick='doAbout()' />
+</p>
