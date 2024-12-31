@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Green Screen Web Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script
+src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+
+<h1>Green Screen Web Page</h1>
+<canvas id="canvas_fg"></canvas>
+<canvas id="canvas_bg"></canvas>
+<p>
+Foreground: <input id="fg_finput" type="file" accept="image/*" multiple="false" onchange="fgUpload()"/>
+</p>
+<p>
+Background: <input id="bg_finput" type="file" accept="image/*" multiple="false" onchange="bgUpload()"/>
+</p>
+<div id="about_me"></div>
+<p>
+  <input type="button" value="Create Composite" onclick="doComposite()"/>
+  <input type="button" value="Clear Canvases" onclick="clearCanvases()"/>
+    <input type="button" value="About Me" onclick="doAboutme()"/>
+</p>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
