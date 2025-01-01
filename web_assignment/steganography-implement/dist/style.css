@@ -1,0 +1,22 @@
+h1{
+  font-family:arial;
+  color:dimgray;
+}
+body{
+  font-family:arial;
+  background:lightgray;
+  margin:30px;
+}
+
+canvas{
+  height:200px;
+  border:1px solid black;
+}
+
+input{
+  forn-size:14px;
+}
+#about_me{
+  background-color:yellow;
+  font-size:20px;
+}

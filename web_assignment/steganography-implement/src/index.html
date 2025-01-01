@@ -1,0 +1,22 @@
+<script
+src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+
+<h1>Steganography Implement</h1>
+<canvas id="canvas"></canvas>
+<canvas id="canvas_hide"></canvas>
+<p>
+Original Picture: <input id="pic" type="file" accept="image/*" multiple="false" onchange="uploadOriginal()"/>
+</p>
+<p>
+Hide Picture: <input id="hide_pic" type="file" accept="image/*" multiple="false" onchange="uploadHide()"/>
+</p>
+<p>
+  <input type="button" value="Encoder" onclick="doEncoder()"/>
+    <input type="button" value="Decoder" onclick="doDecoder()"/>
+      <input type="button" value="text" onclick="doTest()"/>
+</p>
+<div id="about_me"></div>
+<p>
+      <input type="button" value="About Me" onclick="doAboutme()"/>
+</p>
